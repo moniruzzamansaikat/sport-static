@@ -1,0 +1,24 @@
+.features .card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  text-align: center;
+}
+
+.features .card::before {
+  display: none;
+}
+
+.features .card span {
+  font-size: 3rem;
+  color: var(--clr-dark-four);
+}
+
+.features .card h4 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: var(--clr-dark-four);
+}
+
+.features .card p {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}

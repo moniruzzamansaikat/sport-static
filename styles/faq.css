@@ -1,0 +1,18 @@
+.faq .accordion-button {
+  box-shadow: 0 0 0;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  background-color: var(--clr-dark-four);
+  color: #f0f0f0;
+}
+
+.faq .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.faq .accordion-body {
+  background-color: #03506f18;
+  color: var(--clr-dark-four);
+  font-weight: 100;
+}

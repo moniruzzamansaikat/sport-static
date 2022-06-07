@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/news.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand">
+          <img src="./img/logo.svg" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbarCollapse"
+          aria-controls="mainNavbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="text-white">
+            <ion-icon name="menu-outline"></ion-icon>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbarCollapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="./index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./ticket.html" class="nav-link">Ticket</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="tournamentsMenu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Tournaments</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="tournamentsMenu">
+                <li>
+                  <a href="#" class="nav-link">Road bicycle</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Track cycling</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Cyclo cross</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Mountain bike</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">BMX</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Cycle speedway</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="blogDropdownMenu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Blog</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="blogDropdownMenu">
+                <li>
+                  <a href="#" class="nav-link">Blog 1</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Blog 2</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Blog 3</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Blog 4</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Blog 5</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Blog 6</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="./poll.html" class="nav-link">Poll</a>
+            </li>
+            <li class="nav-item">
+              <a href="./features.html" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="./voting.html" class="nav-link">Voting</a>
+            </li>
+            <li class="nav-item">
+              <a href="./faq.html" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="./news.html" class="nav-link">News</a>
+            </li>
+            <li class="nav-item ms-2">
+              <a href="./login.html" class="btn btn-primary btn-rounded mt-1">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero -->
+    <header class="hero">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/hero/img1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Road bicycle racing</h2>
+              <p>
+                Road bicycle racing involve both team and individual competition, and races are
+                contested in various ways. They range from the one-day road race, criterium, and
+                time trial to multi-stage events like the Tour de France and its sister events which
+                make up cycling's Grand Tours.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/hero/img2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Track cycling</h2>
+              <p>
+                Track cycling encompasses races that take place on banked tracks or velodromes.
+                Events are quite diverse and can range from individual and team pursuits, two-man
+                sprints, to various group and mass start races. Competitors use track bicycles which
+                do not have brakes or freewheels.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/hero/img3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Cyclo-cross</h2>
+              <p>
+                Cyclo-cross originated as a sport for road racers during the off season, to vary
+                their training during the cold months. Races typically take place in the autumn and
+                winter (the international or World Cup season is September–January) and consist of
+                many laps of a 2–3 km or 1–2 mile course featuring pavement, wooded trails, grass.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/hero/img4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Mountain bike</h2>
+              <p>
+                Mountain bike races are held off-road and involve moderate to high degree of
+                technical riding. There are several varieties; the main categories are
+                cross-country, enduro and downhill but also 4X or four cross racing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- end of hero -->
+
+    <!-- top things -->
+    <div class="top_things">
+      <div class="grid">
+        <div>
+          <span class="icon">
+            <ion-icon name="megaphone-outline"></ion-icon>
+          </span>
+          <h2>Tournaments</h2>
+          <p>N vs M</p>
+        </div>
+        <div>
+          <span class="icon">
+            <ion-icon name="accessibility-outline"></ion-icon>
+          </span>
+          <h2>Top Player</h2>
+          <p>Michael Jordan</p>
+        </div>
+        <div>
+          <span class="icon">
+            <ion-icon name="globe-outline"></ion-icon>
+          </span>
+          <h2>Top Division</h2>
+          <p>Washington DC</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of top things -->
+
+    <!-- featured section -->
+    <section id="features">
+      <div class="container container-sm">
+        <header>
+          <h4>FEATURED</h4>
+          <h2>2022 MERCEDES-BENZ UCI MOUNTAIN BIKE WORLD CUP</h2>
+          <p>26 MAR - 04 SEP 2022</p>
+        </header>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h4>mountain bike</h4>
+                <a href="#" class="title">
+                  Mercedes-Benz UCI Mountain Bike World Cup: first win for McConnell, 33rd for
+                  Schurter
+                </a>
+              </div>
+              <img src="./img/featured/img1.jfif" alt="" />
+              <span class="time">10 aug 22</span>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h4>mountain bike</h4>
+                <a href="#" class="title">
+                  2022 Mercedes-Benz UCI Mountain Bike World Cup: Balanche and Pierron claim
+                  first-round victories in Lourdes
+                </a>
+              </div>
+              <img src="./img/featured/img2.jfif" alt="" />
+              <span class="time">20 jun 22</span>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h4>mountain bike</h4>
+                <a href="#" class="title">
+                  The 2022 Mercedes-Benz UCI Mountain Bike World Cup begins!
+                </a>
+              </div>
+              <img src="./img/featured/img3.jfif" alt="" />
+              <span class="time">2 jul 22</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_logo">
+        <div class="container"><img src="./img/logo.svg" alt="" /></div>
+      </div>
+
+      <div class="footer_grid">
+        <div class="social">
+          <div class="ps-4">
+            <ul>
+              <li>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+              </li>
+            </ul>
+
+            <address class="footer_address">
+              Union Cycliste Internationale (UCI)<br />
+              Allée Ferdi Kübler 12<br />
+              1860 Aigle<br />
+              Switzerland<br />
+            </address>
+
+            <div class="footer_contact mt-4">
+              <a href="tel:+41 24 468 58 11"> Tel. +41 24 468 58 11 </a>
+              <a href="mailto:contact@uci.ch">contact@uci.ch</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="container px-4">
+            <h2 class="text-center mb-4">Our Partners</h2>
+            <div class="companies">
+              <img src="./img/companies/img1.svg" alt="" />
+              <img src="./img/companies/img2.svg" alt="" />
+              <img src="./img/companies/img3.svg" alt="" />
+              <img src="./img/companies/img4.svg" alt="" />
+              <img src="./img/companies/img5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_end py-5 text-center">
+        <p>&copy; 2022 for Saikim Software Solution</p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</html>
